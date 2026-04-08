@@ -1,0 +1,38 @@
+@import 'tailwindcss';
+@import 'uniwind';
+
+@layer theme {
+  :root {
+    /* ── Default: light ────────────────────── */
+    @variant light {
+      --color-background: #faf6f1;
+      --color-foreground: #1a0e04;
+      --color-foreground-secondary: #5c3d1e;
+      --color-card: #fff5e9;
+      --color-card-foreground: #1a0e04;
+      --color-primary: #d94f09;
+      --color-primary-foreground: #ffffff;
+      --color-primary-subtle: #fcc89e;
+      --color-border: #d4a878;
+      --color-muted: #8a6438;
+      --color-accent: #e5650e;
+      --color-surface: #f5e8d4;
+    }
+
+    /* ── Default: dark ─────────────────────── */
+    @variant dark {
+      --color-background: #0d0820;
+      --color-foreground: #f0ecff;
+      --color-foreground-secondary: #c4aaee;
+      --color-card: #1c1438;
+      --color-card-foreground: #e9d5ff;
+      --color-primary: #a78bfa;
+      --color-primary-foreground: #07020f;
+      --color-primary-subtle: #4c1d95;
+      --color-border: #3d2875;
+      --color-muted: #9070cc;
+      --color-accent: #8b5cf6;
+      --color-surface: #251a45;
+    }
+  }
+}

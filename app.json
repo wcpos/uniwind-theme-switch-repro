@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "uniwind-pro-demo",
+    "slug": "uniwind-pro-demo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "uniwindprodemo",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.codemask.uniwind-pro-demo"
+    },
+    "web": {
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    },
+    "android": {
+      "package": "com.codemask.uniwindprodemo"
+    }
+  }
+}
