@@ -1,16 +1,16 @@
 {
   "expo": {
-    "name": "uniwind-pro-demo",
-    "slug": "uniwind-pro-demo",
+    "name": "uniwind-theme-repro",
+    "slug": "uniwind-theme-repro",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "uniwindprodemo",
+    "scheme": "uniwindthemerepro",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.codemask.uniwind-pro-demo"
+      "bundleIdentifier": "com.wcpos.uniwind-theme-repro"
     },
     "web": {
       "output": "static",
@@ -24,7 +24,7 @@
       "reactCompiler": true
     },
     "android": {
-      "package": "com.codemask.uniwindprodemo"
+      "package": "com.wcpos.uniwindthemerepro"
     }
   }
 }
